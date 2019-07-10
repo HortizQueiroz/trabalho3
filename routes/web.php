@@ -15,7 +15,7 @@ Route::get('/', 'ControllerProduto@produtos');
 
 //Chamando o controllador
 Route::get('/sobre', 'ControllerPagina@sobre');
-Route::get('/contato', 'ControllerPagina@contato');
+//Route::get('/contato', 'ControllerPagina@contato');
 
 //Rotas para parte de Produtos
 Route::get('/produtos', 'ControllerProduto@produtos');
